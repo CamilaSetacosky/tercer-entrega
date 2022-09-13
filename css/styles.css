@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+nav {
+  background-color: #fff; }
+  nav div .text-titulo {
+    letter-spacing: 10px;
+    color: black; }
+  nav div .navbar-toggler {
+    background-color: #84a59d; }
+  nav div .nav-item {
+    background-color: white; }
+  nav div .text-item a {
+    color: black; }
+    nav div .text-item a:hover {
+      color: #84a59d; }
+
+header .titulo-header {
+  letter-spacing: 4px; }
+
+.banner {
+  background-image: url(../images/algodon2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 40vh; }
+  .banner .text-white {
+    font-size: 3rem; }
+
+section .bg-circulo {
+  background-color: #f5cac3;
+  color: #84a59d;
+  width: 200px;
+  height: 200px; }
+
+section .animation {
+  transition: transform .3s; }
+  section .animation:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: #f28482b4 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
+
+section .btn-primary {
+  background: #84a59d;
+  border: 0; }
+  section .btn-primary:hover {
+    background: #84a59d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; }
+
+section .btn-secondary {
+  background: #84a59d9d;
+  border: 0; }
+  section .btn-secondary:hover {
+    background: #84a59d93;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; }
+
+.circulos .circulo1 {
+  width: 250px;
+  height: 250px; }
+
+.circulos .circulo2 {
+  width: 270px;
+  height: 270px; }
+
+.circulos .circulo3 {
+  width: 250px;
+  height: 250px; }
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background: transparent;
+  background-color: #84a59d;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer .ancho-footer {
+    margin-top: 10px; }
+    footer .ancho-footer .redes {
+      display: inline-block;
+      text-align: center;
+      color: black; }
+      footer .ancho-footer .redes a .bi-instagram {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: black; }
+      footer .ancho-footer .redes a .bi-instagram:hover {
+        color: #84a59d; }
+      footer .ancho-footer .redes a .bi-facebook {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: black; }
+      footer .ancho-footer .redes a .bi-facebook:hover {
+        color: #84a59d; }
+      footer .ancho-footer .redes a .bi-whatsapp {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: black; }
+      footer .ancho-footer .redes a .bi-whatsapp:hover {
+        color: #84a59d; }

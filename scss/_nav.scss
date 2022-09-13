@@ -1,0 +1,21 @@
+nav {
+    background-color: #fff;
+    div {
+        .text-titulo {
+            letter-spacing: 10px; 
+            color: black;
+        }
+        .navbar-toggler {
+            background-color: $color-principal;  
+        }
+        .nav-item {
+            background-color: white;   
+        }
+        .text-item a{ 
+            color: black;
+            &:hover {
+                color: $color-principal;
+            }
+        }
+    }  
+}
